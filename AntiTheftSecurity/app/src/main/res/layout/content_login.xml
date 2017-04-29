@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abbg"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="trainedge.antitheftsecurity.LoginActivity"
+    tools:showIn="@layout/activity_login">
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abdu"
+        android:layout_marginTop="54dp"
+        app:layout_constraintHorizontal_bias="0.507" />
+
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/ivFbSignIn"
+        android:layout_width="177dp"
+        android:layout_height="26dp"
+        android:layout_gravity="center_horizontal"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="85dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/ivGoogleSignIn"
+        android:layout_width="185dp"
+        android:layout_height="36dp"
+        android:layout_marginBottom="52dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="45dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivFbSignIn"
+        app:layout_constraintLeft_toLeftOf="@+id/ivFbSignIn"
+        app:layout_constraintRight_toRightOf="@+id/ivFbSignIn"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo"
+        app:layout_constraintVertical_bias="1.0"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintTop_creator="1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="Anti-Theft-Security"
+        android:textAlignment="center"
+        android:textColor="@android:color/background_dark"
+        android:textSize="40sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="18dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/abbg"
+    tools:context="trainedge.antitheftsecurity.About">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="414dp"
+        android:layout_marginTop="140dp"
+        android:text="In this app if we get our gadget stolen then if that person access your gadget then you will get the person’s image into your account. If the theif is directly changing the SIM card of your phone after stealing then you and alternate number will get the SMS. You will get your phone’s current location through the GPS. "
+        android:textAlignment="center"
+        android:textColor="@color/common_google_signin_btn_text_dark_focused"
+        android:textSize="27sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="top"
+        android:layout_marginTop="30dp"
+        android:fontFamily="casual"
+        android:foregroundGravity="top"
+        android:gravity="top|center"
+        android:text="About Us"
+        android:textAllCaps="false"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="60dp"
+        android:textStyle="bold"
+        tools:text="About US" />
+</android.support.design.widget.CoordinatorLayout>

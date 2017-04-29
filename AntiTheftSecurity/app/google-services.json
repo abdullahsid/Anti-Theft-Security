@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "864219890508",
+    "firebase_url": "https://antitheftsecurity-d617a.firebaseio.com",
+    "project_id": "antitheftsecurity-d617a",
+    "storage_bucket": "antitheftsecurity-d617a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:864219890508:android:cc8cd2fba728cbea",
+        "android_client_info": {
+          "package_name": "trainedge.antitheftsecurity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "864219890508-gastqobki34cbuten6v6497mh6n36agi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "trainedge.antitheftsecurity",
+            "certificate_hash": "cf7fd6a83043661bcdd46f77c879ffe18906ea3a"
+          }
+        },
+        {
+          "client_id": "864219890508-10qv0reac3tqii4vkinkg07v920118o5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAqE0tMWxdl219otu88LI50xHQcmerW3_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "864219890508-10qv0reac3tqii4vkinkg07v920118o5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

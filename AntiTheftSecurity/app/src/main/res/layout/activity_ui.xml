@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="trainedge.antitheftsecurity.UI">
+
+    <Switch
+        android:id="@+id/spic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Take A Picture   "
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="245dp" />
+
+    <EditText
+        android:id="@+id/etnum"
+        android:layout_width="228dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Your number to be tracked"
+        android:inputType="number"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="61dp" />
+
+    <EditText
+        android:id="@+id/etaltnum"
+        android:layout_width="266dp"
+        android:layout_height="46dp"
+        android:ems="10"
+        android:hint="Save your alternate number to get the alert"
+        android:inputType="number"
+        android:singleLine="false"
+        android:textSize="13sp"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <Switch
+        android:id="@+id/sgps"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Current Location (GPS)   "
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="319dp" />
+
+    <Switch
+        android:id="@+id/sringflash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ring and Flash     "
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="392dp" />
+
+    <Switch
+        android:id="@+id/ssimdetect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sim Detection    "
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="460dp" />
+</android.support.constraint.ConstraintLayout>
